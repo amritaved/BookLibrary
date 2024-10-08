@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "C#: LibraryManagement",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/LibraryManagement/LibraryManagement.csproj",
+            "launchConfigurationId": "TargetFramework=;LibraryManagement"
+        }
+    ]
+}
