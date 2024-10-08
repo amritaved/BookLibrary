@@ -11,7 +11,7 @@ This project is a simple Book Library API implemented in C# using .NET 6.
    ```sh
    dotnet run
    ```
-4. The API will be available at `https://localhost:7078` (https://localhost:7078/swagger/v1/swagger.json)
+4. The API will be available at 'https://localhost:7078/swagger'
 
 ## API Endpoints
 - `GET /api/books` - Retrieve all books.
