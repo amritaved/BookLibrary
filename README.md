@@ -9,7 +9,7 @@ This project is a simple Book Library API implemented in C# using .NET 6.
 2. Navigate to the project directory.
 3. Run the following command to start the project:
    ```sh
-   dotnet run
+   dotnet run --project LibraryManagement
    ```
 4. The API will be available at 'https://localhost:7078/swagger'
 
@@ -24,6 +24,4 @@ This project is a simple Book Library API implemented in C# using .NET 6.
 This project includes basic endpoints to demonstrate CRUD operations. You can use tools like Swagger to test the endpoints.
 
 ## Unit Tests
-
-```
-This will execute the unit tests implemented using the MSTest framework.
+Unit tests are implemented using the MSTest framework.
