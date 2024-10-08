@@ -19,7 +19,7 @@ namespace LibraryManagement.Controllers
         }
 
         /// <summary>
-        /// Get all Books.
+        /// GET: api/Books : Get all Books.
         /// </summary>
         /// <returns>List of Books.</returns>
         [HttpGet]
@@ -30,7 +30,7 @@ namespace LibraryManagement.Controllers
         }
 
         /// <summary>
-        /// Get a specific Book by ID.
+        /// GET: api/Books/1 : Get a specific Book by ID.
         /// </summary>
         /// <param name="id">Book ID.</param>
         /// <returns>Book details if found, otherwise returns NotFound.</returns>
@@ -46,7 +46,7 @@ namespace LibraryManagement.Controllers
         }
 
         /// <summary>
-        /// Create a new Book.
+        /// POST: api/Books : Create a new Book.
         /// </summary>
         /// <param name="book">Book details for creation.</param>
         /// <returns>Created Book details.</returns>
@@ -58,7 +58,7 @@ namespace LibraryManagement.Controllers
         }
 
         /// <summary>
-        /// Update an existing Book.
+        /// PUT: api/Books/1 : Update an existing Book.
         /// </summary>
         /// <param name="id">Book ID.</param>
         /// <param name="book">Updated Book details.</param>
@@ -75,7 +75,7 @@ namespace LibraryManagement.Controllers
         }
 
         /// <summary>
-        /// Delete a Book by ID.
+        /// DELETE: api/Books/1 : Delete a Book by ID.
         /// </summary>
         /// <param name="id">Book ID.</param>
         /// <returns>NoContent if successful</returns>
