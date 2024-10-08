@@ -24,8 +24,6 @@ This project is a simple Book Library API implemented in C# using .NET 6.
 This project includes basic endpoints to demonstrate CRUD operations. You can use tools like Swagger to test the endpoints.
 
 ## Unit Tests
-To run the unit tests, navigate to the test project directory and use the following command:
-```sh
-   dotnet test
+
 ```
 This will execute the unit tests implemented using the MSTest framework.
